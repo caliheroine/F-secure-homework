@@ -1,0 +1,16 @@
+@import '../variables/colors';
+body {
+    .ui-confirmdialog.ui-dialog {
+        .ui-dialog-content,
+        .ui-dialog-footer {
+            background-color: $red;
+            color: white;
+            border-style: none;
+        }
+        .ui-button {
+            background-color: $red;
+            color: white;
+            border-color: white;
+        }
+    }
+}

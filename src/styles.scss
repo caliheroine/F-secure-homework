@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import './app/variables/colors';
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 20px 40px;
+    background-color: $light-grey;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $text-primary;
+    .ui-button,
+    .form-control {
+        width: 100%;
+    }
+    .ui-dialog-titlebar {
+        display: none;
+    }
+}

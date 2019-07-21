@@ -1,0 +1,14 @@
+<div class="p-grid">
+    <div class="p-col-8">
+        <app-statistics [total]="total" [completed]="completed" [notCompleted]="notCompleted"></app-statistics>
+    </div>
+    <div class="p-col-12">
+        <app-news-table [news]="news"></app-news-table>
+    </div>
+    <div class="p-col-2 p-offset-10">
+        <app-add-button></app-add-button>
+    </div>
+    <div class="p-col-12">
+        <app-news-form [total]="total"></app-news-form>
+    </div>
+</div>
